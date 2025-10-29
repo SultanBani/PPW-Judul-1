@@ -12,87 +12,76 @@
     <header>
         <div class="container">
             <h1>Sultan Bani Hakim</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">Tentang Saya</a></li>
-                    <li><a href="#keahlian">Keahlian</a></li>
-                    <li><a href="#proyek">Proyek</a></li>
-                    <li><a href="#kontak">Kontak</a></li>
-                </ul>
-            </nav>
-        </div>
+            </div>
     </header>
 
     <section id="hero" class="hero">
         <div class="container">
-            <div class="hero-content">
-                <p class="subtitle">Mahasiswa Teknik Informatika</p>
-                <h2>Fokus pada **Smart System**</h2>
-                <p>Menciptakan solusi cerdas dan inovatif melalui perpaduan teknologi dan data. Siap untuk tantangan pengembangan sistem modern.</p>
-                <a href="#proyek" class="btn">Lihat Proyek</a>
-            </div>
-            </div>
-    </section>
+            
+            <div class="hero-info">
+                <p class="subtitle">Halo, saya</p>
+                <h2>Sultan Bani Hakim</h2>
+                <p>Mahasiswa <span class="highlight">Teknik Informatika</span> di Universitas Lampung, dengan konsentrasi utama pada **Smart System**.</p>
+                
+                <p>Saya fokus pada perancangan dan implementasi sistem yang mampu memproses data dan mengambil keputusan cerdas menggunakan teknologi seperti AI dan IoT.</p>
+                
+                <ul class="skills-list">
+                    <li><span class="highlight">Prodi:</span> Teknik Informatika, Universitas Lampung</li>
+                    <li><span class="highlight">Konsentrasi:</span> Smart System (AI, IoT, ML)</li>
+                    <li><span class="highlight">Keahlian Kunci:</span> Python, Machine Learning, Embedded System.</li>
+                </ul>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h3>Tentang Saya hh</h3>
-            <p>Saya **Sultan Bani Hakim**, mahasiswa **Teknik Informatika** di **Universitas Lampung**.</p>
-            <p>Sejak awal perkuliahan, saya memiliki minat besar pada bidang **Smart System** (Sistem Cerdas), yang mencakup penerapan **Artificial Intelligence (AI), Internet of Things (IoT), dan Machine Learning (ML)** untuk mengoptimalkan proses dan pengambilan keputusan. Saya selalu antusias belajar teknologi baru dan menerapkannya untuk memecahkan masalah nyata.</p>
+                <a href="#pekerjaan" class="btn">Lihat Contoh Pekerjaan</a>
+            </div>
+
+            <div class="hero-photo">
+                <img src="profil_placeholder.jpg" alt="Foto Profil Sultan Bani Hakim" class="profile-img">
+            </div>
+
         </div>
     </section>
 
-    <section id="keahlian" class="keahlian">
+    <section id="pengetahuan" class="pengetahuan">
         <div class="container">
-            <h3>Keahlian Inti 💡</h3>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h4>Smart System & AI</h4>
-                    <p>Konsep dasar AI, Algoritma ML (Klasifikasi & Regresi), Pengolahan Data.</p>
-                </div>
-                <div class="skill-card">
-                    <h4>Pemrograman</h4>
-                    <p>Python (Fokus utama), C/C++, HTML & CSS dasar (Web Development).</p>
-                </div>
-                <div class="skill-card">
-                    <h4>IoT & Hardware</h4>
-                    <p>Penggunaan Mikrokontroler (Arduino, ESP32), Sensor, dan Protokol Komunikasi.</p>
-                </div>
-            </div>
+            <h3>Pengetahuan dan Fokus Utama 🧠</h3>
+            
+            <h4>Konsep Smart System</h4>
+            <p>Fokus saya adalah pada bagaimana mengintegrasikan perangkat keras (*hardware*) dengan algoritma cerdas (*software*) untuk membuat keputusan mandiri. Ini mencakup pemahaman mendalam tentang siklus data dari sensor (IoT) hingga pemrosesan (ML).</p>
+            
+            <h4>Keahlian Machine Learning (ML)</h4>
+            <p>Saya mahir dalam menggunakan *framework* seperti Scikit-learn untuk implementasi algoritma dasar seperti Regresi Linier dan Klasifikasi. Pengetahuan ini menjadi dasar untuk membangun model prediktif pada sistem cerdas.</p>
         </div>
     </section>
 
-    <section id="proyek" class="proyek">
+    <section id="pekerjaan" class="pekerjaan">
         <div class="container">
-            <h3>Proyek Pilihan 🚀</h3>
+            <h3>Contoh Pekerjaan (Proyek) 🚀</h3>
+            
             <div class="project-card">
-                <h4>Sistem Monitoring Udara IoT</h4>
-                <p>Proyek menggunakan ESP32 dan sensor gas untuk memantau kualitas udara secara *real-time*, datanya divisualisasikan melalui *web dashboard* sederhana.</p>
-                <span class="tag">IoT</span><span class="tag">Python</span><span class="tag">Sensor</span>
+                <h4>1. Klasifikasi Kualitas Udara Real-Time</h4>
+                <p>Pengembangan sistem IoT menggunakan mikrokontroler ESP32 dan berbagai sensor gas. Data sensor dikirim ke *cloud* dan diolah menggunakan model Klasifikasi sederhana (Decision Tree) untuk menentukan status kualitas udara (Baik, Sedang, Buruk).</p>
+                <span class="tag">IoT</span><span class="tag">Machine Learning</span><span class="tag">Python</span>
             </div>
-            <div class="project-card">
-                <h4>Prediksi Harga Menggunakan Regresi</h4>
-                <p>Implementasi algoritma *Linear Regression* menggunakan library **Scikit-learn** di Python untuk memprediksi nilai berdasarkan data historis.</p>
-                <span class="tag">Machine Learning</span><span class="tag">Python</span><span class="tag">Data Analysis</span>
-            </div>
-            </div>
-    </section>
 
+            <div class="project-card">
+                <h4>2. Sistem Rekomendasi Sederhana</h4>
+                <p>Implementasi algoritma dasar *Collaborative Filtering* di Python untuk merekomendasikan produk berdasarkan *history* pengguna. Proyek ini melatih pemahaman saya tentang pengolahan data besar dan efisiensi algoritma.</p>
+                <span class="tag">Python</span><span class="tag">Data Mining</span><span class="tag">Algoritma</span>
+            </div>
+        </div>
+    </section>
+    
     <section id="kontak" class="kontak">
         <div class="container">
             <h3>Hubungi Saya ✉️</h3>
-            <p>Tertarik untuk berdiskusi atau berkolaborasi? Mari terhubung!</p>
-            <div class="contact-links">
-                <a href="mailto:emailanda@mail.com">Email</a>
-                <a href="https://linkedin.com/in/profilanda" target="_blank">LinkedIn</a>
-                <a href="https://github.com/akunanda" target="_blank">GitHub</a>
-            </div>
+            <p>Silakan hubungi saya untuk kolaborasi proyek atau kesempatan magang di bidang Smart System.</p>
+            <p>Email: <a href="mailto:emailanda@mail.com" class="highlight">emailanda@mail.com</a> | LinkedIn: <a href="https://linkedin.com/in/profilanda" class="highlight">Sultan Bani Hakim</a></p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Sultan Bani Hakim. Dibangun dengan HTML & CSS Dasar.</p>
+            <p>&copy; 2025 Sultan Bani Hakim. Teknik Informatika, Unila.</p>
         </div>
     </footer>
 
