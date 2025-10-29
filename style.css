@@ -1,13 +1,10 @@
-/* ---------------------------------
-    1. GENERAL STYLES & RESET (Clean Light Theme)
---------------------------------- */
 :root {
-    --primary-color: #007BFF;       /* Biru Cerah (Aksen Utama) */
-    --accent-color: #5A6A7F;        /* Abu-abu Biru (Subdued accent) */
-    --background-light: #FFFFFF;    /* Latar Belakang Dasar Putih Bersih */
-    --text-dark: #333333;           /* Warna Teks Hitam-abu */
-    --border-color: #E0E0E0;        /* Warna Garis Tipis */
-    --shadow-color: rgba(0, 0, 0, 0.08); /* Bayangan Sangat Ringan */
+    --primary-color: #007BFF;       
+    --accent-color: #5A6A7F;        
+    --background-light: #FFFFFF;    
+    --text-dark: #333333;          
+    --border-color: #E0E0E0;      
+    --shadow-color: rgba(0, 0, 0, 0.08); 
 }
 
 * {
@@ -62,7 +59,7 @@ header .container {
 
 header h1 {
     font-size: 1.6em;
-    color: var(--primary-color);
+    color:0F0E0E;
     font-weight: 700;
     margin: 0;
 }
