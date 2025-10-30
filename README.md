@@ -1,7 +1,7 @@
 Tampilan Halaman Web
 
 
-![alt text](image.png)
+![alt text](ImageFolder/image-1.png)
 
 
 
@@ -9,8 +9,8 @@ Tampilan Halaman Web
 
 
 
-![alt text](image-2.png)
+![alt text](ImageFolder/image-2.png)
 
 
 
-![alt text](image-3.png)
+![alt text](ImageFolder/image-3.png)
