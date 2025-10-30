@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #007BFF;       
+    --primary-color: #333446;       
     --accent-color: #5A6A7F;        
     --background-light: #FFFFFF;    
     --text-dark: #333333;          
@@ -22,15 +22,15 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1100px;
     margin: auto;
     overflow: hidden;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 10px;
+    margin-top: 10px;
     color: var(--text-dark);
 }
 
@@ -39,9 +39,7 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
-/* ---------------------------------
-    2. HEADER (Minimalis Pojok Kiri)
---------------------------------- */
+
 header {
     background: var(--background-light);
     padding: 10px 0;
@@ -66,9 +64,7 @@ header h1 {
     margin: 0;
 }
 
-/* ---------------------------------
-    3. HERO SECTION (2 Kolom - Info Kiri, Foto Kanan)
---------------------------------- */
+
 .hero {
     padding: 80px 0;
     min-height: 80vh;
@@ -81,13 +77,13 @@ header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: left;
-    gap: 50px; 
+    text-align: justify;
+    gap: 70px; 
 }
 
 .hero-info {
     flex: 1; 
-    max-width: 55%;
+    max-width: 70%;
 }
 
 .hero-photo {
@@ -110,12 +106,13 @@ header h1 {
     font-size: 2.8em;
     color: var(--text-dark);
     margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 .hero-info .subtitle {
     font-size: 1.2em;
     color: var(--accent-color);
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-weight: 400;
 }
 
@@ -133,8 +130,8 @@ header h1 {
 
 .btn {
     display: inline-block;
-    background: var(--primary-color);
-    color: var(--background-light);
+    background: #E9E9E9;
+    color: #333333;
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -144,19 +141,17 @@ header h1 {
 }
 
 .btn:hover {
-    background: #0056b3;
+    background: #7A7A73;
 }
 
-/* ---------------------------------
-    4. GENERAL SECTIONS (Bersih)
---------------------------------- */
+
 section {
     padding: 80px 0;
     text-align: left;
     border-top: 1px solid var(--border-color);
 }
 
-section:nth-child(even) { /* Selang-seling warna latar belakang sedikit abu-abu */
+section:nth-child(even) { 
     background: #F8F9FA;
 }
 
@@ -165,13 +160,10 @@ section h3 {
     font-size: 2em;
     margin-bottom: 40px;
     color: var(--text-dark); 
-    border-left: 4px solid var(--primary-color); /* Garis aksen di judul */
+    border-left: 4px solid var(--text-dark); 
     padding-left: 15px;
 }
 
-/* ---------------------------------
-    5. PROJECT & KNOWLEDGE CARD
---------------------------------- */
 .project-card {
     border: 1px solid var(--border-color);
     padding: 25px;
@@ -186,7 +178,7 @@ section h3 {
 }
 
 .project-card h4 {
-    color: var(--primary-color);
+    color: var(--text-dark);
     font-size: 1.3em;
     margin-bottom: 5px;
 }
@@ -203,9 +195,7 @@ section h3 {
     border: 1px solid var(--border-color);
 }
 
-/* ---------------------------------
-    6. FOOTER
---------------------------------- */
+
 footer {
     background: #F8F9FA; 
     color: var(--accent-color);
@@ -216,9 +206,7 @@ footer {
 }
 
 
-/* ---------------------------------
-    7. MEDIA QUERIES (Responsiveness)
---------------------------------- */
+
 @media (max-width: 768px) {
     .hero .container {
         flex-direction: column; 
