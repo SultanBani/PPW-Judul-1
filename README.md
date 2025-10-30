@@ -5,7 +5,7 @@ Tampilan Halaman Web
 
 
 
-![alt text](image-1.png)
+![alt text](image folder/image-1.png)
 
 
 
