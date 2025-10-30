@@ -1,11 +1,11 @@
 Tampilan Halaman Web
 
 
+![alt text](ImageFolder/image.png)
+
+
+
 ![alt text](ImageFolder/image-1.png)
-
-
-
-![alt text](image folder/image-1.png)
 
 
 
